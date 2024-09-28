@@ -9,13 +9,13 @@ body {
   font-family: 'Playfair Display', sans-serif;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.5)), 
   url('https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/river-flowing-through-forest-generative-al2-min.jpg');
-  background-size: cover; /* Ensure background covers the entire area */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent repetition */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   padding: 50px;
-  min-height: 100vh; /* Ensure the background takes up at least full screen height */
+  min-height: 100vh;
   box-sizing: border-box;
-  overflow: hidden; /* Prevent content overflow */
+  overflow: hidden; 
 }
 
 .buttons {
@@ -57,22 +57,21 @@ body {
   background-color: #1d391d;
 }
 
-/* Adjust the camping-options container to fit inside the landing page */
 .camping-options {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Ensure items wrap to the next line on smaller screens */
+  flex-wrap: wrap; 
   padding: 40px;
   gap: 20px;
-  max-width: 100%; /* Prevent the container from overflowing */
+  max-width: 100%;
   box-sizing: border-box;
 }
 
-/* Adjust options for better responsiveness */
+
 .option {
   padding: 20px;
-  max-width: 150px; /* Limit width to prevent overflowing */
-  width: 100%; /* Ensure the option uses the available space */
+  max-width: 150px; 
+  width: 100%; 
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s, backdrop-filter 0.3s, box-shadow 0.3s;
@@ -94,13 +93,11 @@ body {
   margin-bottom: 10px;
 }
 
-/* Media Queries */
 
-/* Mobile devices */
 @media (max-width: 600px) {
   .landing-page {
     padding: 20px;
-    min-height: auto; /* Adjust height for smaller screens */
+    min-height: auto; 
   }
 
   .camping-options {
@@ -109,15 +106,14 @@ body {
 
   .option {
     padding: 20px;
-    max-width: 100px; /* Smaller width for mobile */
+    max-width: 100px; 
   }
 
   .option img {
-    max-width: 40px; /* Smaller image for mobile */
+    max-width: 40px; 
   }
 }
 
-/* Tablet devices */
 @media (min-width: 601px) and (max-width: 1024px) {
   .landing-page {
     padding: 40px;
@@ -129,18 +125,17 @@ body {
 
   .option {
     padding: 30px;
-    max-width: 130px; /* Adjusted for tablets */
+    max-width: 130px; 
   }
 
   .option img {
-    max-width: 45px; /* Slightly larger for tablet */
+    max-width: 45px;
   }
 }
 
-/* Desktop devices */
 @media (min-width: 1025px) {
   .landing-page {
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
   }
 
   .option {
